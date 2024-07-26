@@ -1,10 +1,9 @@
 <!DOCTYPE HTML>
 <!--
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+    Dimension by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<!DOCTYPE HTML>
 <html>
     <head>
         <title>Adnan Adam - Personal Website</title>
@@ -12,6 +11,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
         <link rel="stylesheet" href="assets/css/main.css" />
         <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <script src="script.js" defer></script>
     </head>
     <body class="is-preload">
 
@@ -25,14 +25,29 @@
                 </div>
                 <div class="content">
                     <div class="inner">
-                        <h1>Adnan Adam</h1>
-                        <p>Software Engineer | Computer Science Student at the University of Minnesota</p>
+                        <h1></h1>
+                        <p><div class="container">
+                            <div class="row">
+                                <div class="col-2 col-2 col-12-small">
+                                    <span class="image fit"><img src="" alt="" /></span>
+                                </div>
+                                <div class="col-8 col-7-large col-9-medium">
+                                    <header>
+                                        <h2>Hi. I'm <strong>Adnan Adam</strong>.</h2>
+                                    </header>
+                                <div class="container">
+                                    <h3><p>I am a <span id="job-title"></span></p></h3>
+                                    </div>
+                                    <p></p><a href="#work" class="button small scrolly">Learn about what I do</a></p>
+                                </div>
+                            </div>
+                        </div></p>
                     </div>
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="#intro">Intro</a></li>
-                        <li><a href="#work">Work</a></li>
+                        <li><a href="#intro">About</a></li>
+                        <li><a href="#resume">Resume</a></li>
                         <li><a href="#projects">Projects</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
@@ -44,16 +59,18 @@
 
                 <!-- Intro -->
                 <article id="intro">
-                    <h2 class="major">Intro</h2>
-                    <span class="image main"><img src="images/profile.jpg" alt="Adnan Adam" /></span>
-                    <p>Hello! I'm Adnan Adam, a passionate software engineer and computer science student at the University of Minnesota. I have a keen interest in AI, data structures, and algorithms. I enjoy solving complex problems and continuously learning new technologies to improve my skills.</p>
+                    <h2 class="major">About</h2>
+                    <span class="image main"><img src="images/Me.png" alt="Adnan Adam" /></span>
+                    <p>Hello, My name is Adnan Adam, a University of Minnesota student majoring in Computer Science. 
+						I am passionate about the dynamic software industry and, through my courses and work experiences, have developed technical and leadership skills. 
+						I am eager to find opportunities to further challenge myself, connect with like-minded companies, and explore innovative technologies and their real-world applications.</p>
                 </article>
 
                 <!-- Work -->
                 <article id="work">
                     <h2 class="major">Work Experience</h2>
                     <h3>Software Engineer Intern, Headstarter AI</h3>
-                    <p><em>San Francisco, CA — July 2024 - Present</em></p>
+                    <p><em>July 2024 - Sept 2024</em></p>
                     <ul>
                         <li>Built and deployed 5 AI projects within 5 weeks, reaching 1,000 users in the last 2 weeks.</li>
                         <li>Utilized SQL for data extraction, transformation, and analysis to inform AI development.</li>
@@ -61,8 +78,8 @@
                         <li>Applied machine learning algorithms to analyze datasets, develop predictive models, and identify trends.</li>
                         <li>Participated in hackathons and collaborative data-driven problem-solving sessions.</li>
                     </ul>
-                    <h3>Undergraduate Teaching Assistant, Data Structure and Algorithms</h3>
-                    <p><em>Minneapolis, MN — Jan 2024 - Present</em></p>
+                    <h3>Undergraduate Teaching Assistant</h3>
+                    <p><em>Jan 2024 - Present</em></p>
                     <ul>
                         <li>Guided a cohort of over 100 students in foundational Python concepts, meticulously tracking their academic progress and performance throughout the semester.</li>
                         <li>Facilitated multiple weekly office hours and lab sessions, providing individualized support and in-depth explanations to deepen student understanding of complex programming concepts and course material.</li>
@@ -76,7 +93,7 @@
                     <h3>2D Array - CHESS Game | Java</h3>
                     <ul>
                         <li>Created a Java-based chess game with a 2D array, blending a love for chess with hands-on experience in crucial algorithms.</li>
-                        <li>Meticulously tested every aspect using JUnit to guarantee the game’s reliability.</li>
+                        <li>Meticulously tested every aspect using JUnit to guarantee the game's reliability.</li>
                         <li>Utilized the IntelliJ IDE throughout the development, crafting a robust 2D array chess project in a Data Structures and Algorithms course.</li>
                     </ul>
                     <h3>Spell Check Program | C, Assembly</h3>
@@ -85,6 +102,12 @@
                         <li>Utilized a Makefile for efficient code compilation and automated testing, ensuring functionality and correctness.</li>
                         <li>Implemented a command-line interface for dictionary manipulation, spell-checking text files, and supporting optional command-line arguments.</li>
                     </ul>
+                </article>
+
+                <!-- Resume -->
+                <article id="resume">
+                    <h2 class="major">Resume</h2>
+                    <a href="MyResume.pdf" target="_blank" class="button">View Resume</a>
                 </article>
 
                 <!-- Contact -->
@@ -115,7 +138,7 @@
                         <li><a href="https://facebook.com/yourprofile" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
                         <li><a href="https://instagram.com/yourprofile" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
                         <li><a href="https://github.com/Dark-Gui" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-                        <li><a href="https://www.linkedin.com/in/adnan-adam-" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                        <li><a href="https://www.linkedin.com/in/adnan-adam-/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
                     </ul>
                 </article>
 
